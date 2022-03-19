@@ -15,6 +15,31 @@ const routes = [
     path: '/blocos',
     name: 'blocoscarnaval',
     component: BlocosCarnaval
+  },
+  {
+    path: '/noticias',
+    name: 'noticias',
+    // component: NoticiasCarnaval
+  },
+  {
+    path: '/lives',
+    name: 'lives',
+    // component: LivesCarnaval
+  },
+  {
+    path: '/cidades',
+    name: 'cidades',
+    // component: CidadesCarnaval
+  },
+  {
+    path: '/reservas',
+    name: 'reservas',
+    // component: ReservasCarnaval
+  },
+  {
+    path: '/compraabada',
+    name: 'compraAbada',
+    // component: CompraAbada
   }
 ]
 
