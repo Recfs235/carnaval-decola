@@ -30,11 +30,6 @@ const routes = [
     component: LivesCarnaval
   },
   {
-    path: '/cidades',
-    name: 'cidades',
-    // component: CidadesCarnaval
-  },
-  {
     path: '/reservas',
     name: 'reservas',
     component: ReservasCarnaval

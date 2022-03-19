@@ -1,6 +1,9 @@
 <template>
     <div>
-
+ <v-card
+    class="d-flex flex-wrap mx-auto" flat tile
+    max-width="500"
+  >
     <v-container fluid>
       <v-row dense>
         <v-col
@@ -13,8 +16,7 @@
             <v-img
               :src="card.src"
               class="white--text align-end"
-              height="200px"
-              
+              height="100%"
             >
             </v-img>
             </a>
@@ -22,6 +24,7 @@
         </v-col>
       </v-row>
     </v-container>
+    </v-card>
     </div>
 </template>
 

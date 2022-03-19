@@ -1,14 +1,14 @@
 <template>
 <div class="appTopBar">
-        <v-app-bar app color="deep-purple accent-2" dark>
+        <v-app-bar app dark class="navbar">
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        Menu
+        Carnaval Decola 🎉
       </v-toolbar-title>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group v-model="group" active-class="deep-purple--text text--lighten-2">
+        <v-list-item-group v-model="group" active-class="orange--text text--lighten-2">
         <router-link to='/'>
             <v-list-item>
                 <v-list-item-icon>
@@ -46,16 +46,6 @@
             </v-list-item-icon>
             <v-list-item-title>
               Lives
-            </v-list-item-title>
-          </v-list-item>
-        </router-link>
-          <router-link to='/cidades'>
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-city</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>
-              Cidades
             </v-list-item-title>
           </v-list-item>
         </router-link>
@@ -98,5 +88,9 @@ export default {
 <style scoped>
     .appTopBar a{
         text-decoration: none;
+    }
+
+    .navbar {
+      background-color: #F08A5D !important;
     }
 </style>
