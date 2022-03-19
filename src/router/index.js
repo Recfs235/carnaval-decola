@@ -4,6 +4,7 @@ import MeuInicio from '../views/MeuInicio.vue'
 import BlocosCarnaval from '../views/BlocosCarnaval.vue'
 import LivesCarnaval from '../views/LivesCarnaval.vue'
 import NoticiasCarnaval from '../views/NoticiasCarnaval.vue'
+import ReservasCarnaval from '../views/ReservasCarnaval.vue'
 
 Vue.use(VueRouter)
 
@@ -26,7 +27,7 @@ const routes = [
   {
     path: '/lives',
     name: 'lives',
-    // component: LivesCarnaval
+    component: LivesCarnaval
   },
   {
     path: '/cidades',
@@ -36,7 +37,7 @@ const routes = [
   {
     path: '/reservas',
     name: 'reservas',
-    // component: ReservasCarnaval
+    component: ReservasCarnaval
   },
   {
     path: '/compraabada',
