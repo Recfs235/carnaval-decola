@@ -16,11 +16,15 @@
         
           <v-card>
             <v-img
-              :src="card.src"
-              class="white--text align-end"
-              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-              height="200px"
+            :src="card.src"
+            class="white--text align-end"
+            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+            max-height=100%
+            max-width=100%
+            fixed
+            
             >
+           
               <v-card-title v-text="card.title"></v-card-title>
             </v-img>
 
@@ -60,12 +64,7 @@ export default {
         { title: 'Leo Santana', sub:'Live com o GG! Vem pra live do gigante!', src: 'https://s2.glbimg.com/m6FGUkcrME5M-XiQTBeQzXTBGF8=/0x0:2048x1251/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/n/l/xFrSrURSidmyHAwEtISg/leo3.jpg', flex: 12 },
       ],
     }),
-    // methods:{
-    //     play(){
-    //         const playLink = this.card
-    //         window.open(playLink);
-    //     }
-    // }
+   
 
 
 }

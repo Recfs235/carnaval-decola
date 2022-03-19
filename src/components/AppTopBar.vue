@@ -7,6 +7,24 @@
         Carnaval Decola 🎉
       </v-toolbar-title>
         </v-spacer>
+        
+         <v-tooltip v-if="!$vuetify.theme.dark" bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon v-on="on" v-bind="attrs"  small fab @click="modoDark">
+            <v-icon class="mr-1">mdi-moon-waxing-crescent</v-icon>
+          </v-btn>
+        </template>
+        <span>ON</span>
+      </v-tooltip>
+       <v-tooltip v-else bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon v-on="on" v-bind="attrs" small fab @click="modoDark">
+            <v-icon>mdi-white-balance-sunny</v-icon>
+          </v-btn>
+        </template>
+        <span>OFF</span>
+      </v-tooltip>  
+
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
@@ -83,7 +101,12 @@ export default {
     data: () => ({
         drawer: false,
         group: null
-    })
+    }),
+    methods: {
+    modoDark() {
+      this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+    }
+  }
 }
 </script>
 
