@@ -31,9 +31,8 @@
                   </template>
                   <v-list
                     class="orange v-card--reveal text-h6 white--text"
-                    max-height=100%
                   >
-                      <h2>{{ bloco.address }}</h2>
+                      <h3>{{ bloco.address }}</h3>
                       <br>
                       <p><strong>Descrição do evento: </strong>{{ bloco.description }}></p>
                   </v-list>
