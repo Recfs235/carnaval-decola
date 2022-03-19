@@ -1,10 +1,16 @@
 <template>
   <v-container>
-      <h2 class="text-h5 text-center mb-3 mt-5">
-        Blocos - Teste
-      </h2>
-      <BlocosCard :getDataFetch="blocosLista"/>
-    </v-container>
+    <v-img
+      alt="Bloco logo"
+      src="../assets/blocoscarnaval.png"
+      class="white--text align-end"
+      gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+      max-height=100%
+      max-width=100%
+    >
+    </v-img>
+    <BlocosCard :getDataFetch="blocosLista"/>
+  </v-container>
 </template>
 
 <script>

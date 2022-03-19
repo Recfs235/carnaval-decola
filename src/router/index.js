@@ -18,7 +18,6 @@ const routes = [
     component: BlocosCarnaval
   },
   {
-<<<<<<< HEAD
     path: '/noticias',
     name: 'noticias',
     // component: NoticiasCarnaval
@@ -42,11 +41,11 @@ const routes = [
     path: '/compraabada',
     name: 'compraAbada',
     // component: CompraAbada
-=======
+  },
+  {
     path: '/lives',
     name: 'LivesCarnaval',
     component: LivesCarnaval
->>>>>>> lives
   }
 ]
 
