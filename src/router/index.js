@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MeuInicio from '../views/MeuInicio.vue'
 import BlocosCarnaval from '../views/BlocosCarnaval.vue'
+import LivesCarnaval from '../views/LivesCarnaval.vue'
 
 Vue.use(VueRouter)
 
@@ -17,6 +18,7 @@ const routes = [
     component: BlocosCarnaval
   },
   {
+<<<<<<< HEAD
     path: '/noticias',
     name: 'noticias',
     // component: NoticiasCarnaval
@@ -40,6 +42,11 @@ const routes = [
     path: '/compraabada',
     name: 'compraAbada',
     // component: CompraAbada
+=======
+    path: '/lives',
+    name: 'LivesCarnaval',
+    component: LivesCarnaval
+>>>>>>> lives
   }
 ]
 
