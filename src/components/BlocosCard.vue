@@ -34,7 +34,7 @@
                   >
                       <h3>{{ bloco.address }}</h3>
                       <br>
-                      <p><strong>Descrição do evento: </strong>{{ bloco.description }}></p>
+                      <p><strong>Descrição do evento: </strong>{{ bloco.description }}</p>
                   </v-list>
                 </v-menu>
               </v-row>
