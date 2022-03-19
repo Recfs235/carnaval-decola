@@ -2,9 +2,11 @@
 <div class="appTopBar">
         <v-app-bar app dark class="navbar">
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+        <v-spacer class="text-center">
       <v-toolbar-title>
         Carnaval Decola 🎉
       </v-toolbar-title>
+        </v-spacer>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
