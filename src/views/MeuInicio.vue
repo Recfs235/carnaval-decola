@@ -32,7 +32,7 @@ export default {
   font-family: sans-serif !important;
   margin-top: 30px !important;
   color: #00796B;
-  
+  font-weight: bold;  
 }
 
 p {

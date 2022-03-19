@@ -30,7 +30,7 @@
                     </v-img>
                   </template>
                   <v-list
-                    class="orange v-card--reveal text-h6 white--text"
+                    class="orange text-h6 white--text"
                   >
                       <h3>{{ bloco.address }}</h3>
                       <br>
