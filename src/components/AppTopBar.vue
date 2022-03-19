@@ -1,14 +1,14 @@
 <template>
 <div class="appTopBar">
-        <v-app-bar app color="blue" dark>
+        <v-app-bar app color="deep-purple accent-2" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        Carnaval Decola 🎉
+        Menu
       </v-toolbar-title>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group v-model="group" active-class="blue--text text--lighten-2">
+        <v-list-item-group v-model="group" active-class="deep-purple--text text--lighten-2">
         <router-link to='/'>
             <v-list-item>
                 <v-list-item-icon>
@@ -42,7 +42,7 @@
           <router-link to='/Lives'>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-</v-icon>
+              <v-icon>mdi-video</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
               Lives
@@ -52,7 +52,7 @@
           <router-link to='/cidades'>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-</v-icon>
+              <v-icon>mdi-city</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
               Cidades
@@ -62,7 +62,7 @@
           <router-link to='/reservas'>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-</v-icon>
+              <v-icon>mdi-bed</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
               Reservas
@@ -72,7 +72,7 @@
           <router-link to='/compraradaba'>
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-</v-icon>
+              <v-icon>mdi-party-popper</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
               Comprar Abadá
