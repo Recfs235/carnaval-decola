@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <h2 class="h2 text-center mb-3 mt-5">Notícias 📰🎭</h2>
+    <h2 class="h2 text-center mb-3 mt-5">Notícias 📰</h2>
 
-    
+    <v-card-container id="cardcontainer">
       <v-card id="card1" class="mx-auto"  max-width="500">
         <v-img
           class="white--text align-end"
@@ -137,7 +137,32 @@
           <v-btn color="orange" text> Leia o artigo na íntegra </v-btn>
         </v-card-actions>
       </v-card>
-    
+
+      <v-card id="card6" class="mx-auto mt-5" max-width="500">
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          src="https://studiosol-a.akamaihd.net/uploadfile/letras/playlists/d/3/d/f/d3df82276162411184d64d18ba4160fc.jpg"
+        >
+          <v-card-title class="title"
+            >Playlist de Carnaval para jogar na folia como preferir</v-card-title
+          >
+        </v-img>
+
+        <v-card-subtitle class="pb-0"> artcetera </v-card-subtitle>
+
+        <v-card-text class="text--primary">
+          <div>
+            Samba-Enredo na avenida, Marchinha no bloco ou folia em casa: o que você prefere? Neste artigo, a proposta é preparar uma super playlist de Carnaval para que cada um aproveite essa festa como quiser. Afinal, gosto musical não se discute, né?
+          </div>
+        </v-card-text>
+
+        <v-card-actions>
+          <v-btn color="orange" text> Leia o artigo na íntegra </v-btn>
+        </v-card-actions>
+      </v-card>
+      
+    </v-card-container>
   </v-container>
 </template>
 
@@ -155,5 +180,11 @@ h2 {
   display: flex;
   justify-content: center;
 }
+#cardcontainer {
+display: flex;
+flex-wrap: wrap;
+}
+
+
 
 </style>
