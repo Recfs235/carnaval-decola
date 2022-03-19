@@ -26,12 +26,12 @@
 
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-card-subtitle v-text="card.sub"></v-card-subtitle> 
+              <v-card-subtitle class="fontes"  v-text="card.sub"></v-card-subtitle> 
                <v-spacer></v-spacer>
                
 
             
-              <v-btn v-on:click="play" icon>
+              <v-btn icon>
                 <v-icon>mdi-play</v-icon>
               </v-btn>
               
@@ -73,5 +73,9 @@ export default {
 
 
 <style scoped>
+.fontes{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 
+}
 </style>

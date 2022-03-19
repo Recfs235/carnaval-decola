@@ -5,6 +5,7 @@ import BlocosCarnaval from '../views/BlocosCarnaval.vue'
 import LivesCarnaval from '../views/LivesCarnaval.vue'
 import NoticiasCarnaval from '../views/NoticiasCarnaval.vue'
 import ReservasCarnaval from '../views/ReservasCarnaval.vue'
+import CompraAbadas from '../views/CompraAbadas.vue'
 
 Vue.use(VueRouter)
 
@@ -40,9 +41,9 @@ const routes = [
     component: ReservasCarnaval
   },
   {
-    path: '/compraabada',
-    name: 'compraAbada',
-    // component: CompraAbada
+    path: '/compraradaba',
+    name: 'CompraAbadas',
+    component: CompraAbadas
   },
   {
     path: '/lives',
