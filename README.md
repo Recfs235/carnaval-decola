@@ -1,4 +1,5 @@
 # carnaval-decola
+  Primeiro projeto em vue.js desenvolvido em grupo para 10ª edição Hackathon Decola Iteris 
 
 ## Project setup
 ```
